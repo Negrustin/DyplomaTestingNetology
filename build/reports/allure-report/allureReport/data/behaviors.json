@@ -1,0 +1,713 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Оплата картой",
+    "children" : [ {
+      "name" : "Оплата картой отсутствующей в системе",
+      "children" : [ {
+        "name" : "Всплывающее окно со статеумом операции",
+        "children" : [ {
+          "name" : "Покупка картой отсутствующей в системе. Отображается сообщение об отказе банком",
+          "uid" : "732c3b5477a7643c",
+          "parentUid" : "82b9e40fa42900a2c855f45e004e93d7",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648508929,
+            "stop" : 1667648524916,
+            "duration" : 15987
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "82b9e40fa42900a2c855f45e004e93d7"
+      }, {
+        "name" : "Отсутствие новых данных в столицах ",
+        "children" : [ {
+          "name" : "Оплата картой отсутствующей в системе, Данные не заносятся в БД",
+          "uid" : "bb7410afa2f2b8b7",
+          "parentUid" : "20c8cb3ff0d11efc8b0c4e194bbcdd9f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648631977,
+            "stop" : 1667648632055,
+            "duration" : 78
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "20c8cb3ff0d11efc8b0c4e194bbcdd9f"
+      } ],
+      "uid" : "c6595d1440bdff5744aa855eaea7889b"
+    }, {
+      "name" : "Оплата разрешенной картой",
+      "children" : [ {
+        "name" : "Всплывающее окно со статеумом операции",
+        "children" : [ {
+          "name" : "Покупка разрешенной картой, отображается сообщение об одобрении банком",
+          "uid" : "9a729af2bfa59b0a",
+          "parentUid" : "3122b2065e4c38b4ac26f3a2a3a389c4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648525029,
+            "stop" : 1667648529464,
+            "duration" : 4435
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3122b2065e4c38b4ac26f3a2a3a389c4"
+      }, {
+        "name" : "Статус опеоации в БД",
+        "children" : [ {
+          "name" : "Оплата разрешённой картой, статус в базе данных 'APPROVED'",
+          "uid" : "b1a4ea3fdee4500e",
+          "parentUid" : "50f56ae11ca6f59103cbf9bb4d8b648f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648632060,
+            "stop" : 1667648632147,
+            "duration" : 87
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "50f56ae11ca6f59103cbf9bb4d8b648f"
+      } ],
+      "uid" : "dcc64fddab8b96663c6b94988ac8590f"
+    }, {
+      "name" : "Оплата запрещенной картой",
+      "children" : [ {
+        "name" : "Всплывающее окно со статеумом операции",
+        "children" : [ {
+          "name" : "Покупка запрещенной картой. Отображается сообщение об отказе банком",
+          "uid" : "e66efea0e6347981",
+          "parentUid" : "6d9d83d9bc8d0df19b2527b97203e43c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648529473,
+            "stop" : 1667648541763,
+            "duration" : 12290
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6d9d83d9bc8d0df19b2527b97203e43c"
+      }, {
+        "name" : "Статус опеоации в БД",
+        "children" : [ {
+          "name" : "Оплата запрещенной картой, статус в базе данных 'DECLINED'",
+          "uid" : "57762f9a8b586d15",
+          "parentUid" : "656a16d8da9328472531d5d883613f39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648629348,
+            "stop" : 1667648631971,
+            "duration" : 2623
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "656a16d8da9328472531d5d883613f39"
+      } ],
+      "uid" : "3e6e168c58849c9d981adc285330aadb"
+    }, {
+      "name" : "Корректность занесения данных в таблицу order_entity",
+      "children" : [ {
+        "name" : "Оплата картой , в таблицу order_entity заносится ID транзакции в поле 'payment_id'",
+        "uid" : "8a0617e683673c32",
+        "parentUid" : "af0ac69da24bcd65d643da9a6163e45b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667648632364,
+          "stop" : 1667648632427,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af0ac69da24bcd65d643da9a6163e45b"
+    } ],
+    "uid" : "83079fb5021fecf1618c277fc354df95"
+  }, {
+    "name" : "Корректность написания названия города",
+    "uid" : "aba3c5dfe9965c9f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1667648542625,
+      "stop" : 1667648542817,
+      "duration" : 192
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "shouldHaveRedColorInPaymentIfSelected()",
+    "uid" : "1abefbfb10e24fab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1667648542823,
+      "stop" : 1667648547649,
+      "duration" : 4826
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Заголовок страницы соответствуют содержанию",
+    "uid" : "4d2c040b29716fd9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1667648547655,
+      "stop" : 1667648547813,
+      "duration" : 158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "shouldHaveRedColorInPaymentByCreditButtonIfSelected()",
+    "uid" : "999483927d1482a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1667648547820,
+      "stop" : 1667648548105,
+      "duration" : 285
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Оплата в кредит",
+    "children" : [ {
+      "name" : "Оплата картой отсутствующей в системе",
+      "children" : [ {
+        "name" : "Всплывающее окно со статеумом операции",
+        "children" : [ {
+          "name" : "Оплата в кредит картой отсутствующей в системе. Отображается сообщение об отказе банком",
+          "uid" : "fe4dc8d583289dc",
+          "parentUid" : "d51356bb97ef1f9c8a916e895791f4cc",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648548142,
+            "stop" : 1667648558152,
+            "duration" : 10010
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d51356bb97ef1f9c8a916e895791f4cc"
+      }, {
+        "name" : "Отсутствие новых данных в столицах ",
+        "children" : [ {
+          "name" : "Кредит по карте отсутствующей в системе, данные не заносятся в БД",
+          "uid" : "8f93c4d192094eb1",
+          "parentUid" : "0abdca935ce4c5c0dc88194705e357ff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648632310,
+            "stop" : 1667648632359,
+            "duration" : 49
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0abdca935ce4c5c0dc88194705e357ff"
+      } ],
+      "uid" : "8e0c7c918c2346c82500932730ef0536"
+    }, {
+      "name" : "Оплата разрешенной картой",
+      "children" : [ {
+        "name" : "Всплывающее окно со статеумом операции",
+        "children" : [ {
+          "name" : "Оплата в кредит разрешенной картой, отображается сообщение об подтверждении банком",
+          "uid" : "e804d41e533d982b",
+          "parentUid" : "7b49fcf4c797e03ff49f1688d336d9ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648558160,
+            "stop" : 1667648564564,
+            "duration" : 6404
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7b49fcf4c797e03ff49f1688d336d9ef"
+      }, {
+        "name" : "Статус опеоации в БД",
+        "children" : [ {
+          "name" : "Оплата в кредит разрешенной картой, статус в базе данных APPROVED",
+          "uid" : "c5f87c2ba65bce07",
+          "parentUid" : "f6d2333101317690dbb080fcf8be42c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648632429,
+            "stop" : 1667648632536,
+            "duration" : 107
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f6d2333101317690dbb080fcf8be42c1"
+      } ],
+      "uid" : "d060d31b58c6f6fc2bcf9a3052979068"
+    }, {
+      "name" : "Оплата запрещенной картой",
+      "children" : [ {
+        "name" : "Всплывающее окно со статеумом операции",
+        "children" : [ {
+          "name" : "Оплата в кредит запрещенной картой, отображается сообщение об отказе банком",
+          "uid" : "cf784b5b7abd982",
+          "parentUid" : "0a5367ff0a88170d329aa7f3c74767e2",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648564569,
+            "stop" : 1667648576865,
+            "duration" : 12296
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0a5367ff0a88170d329aa7f3c74767e2"
+      }, {
+        "name" : "Статус опеоации в БД",
+        "children" : [ {
+          "name" : "Оплата в кредит запрещенной картой, статус в базе данных DECLINED",
+          "uid" : "1df8efb6ba224938",
+          "parentUid" : "70c517f00cf4326b84915aabea380424",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648632243,
+            "stop" : 1667648632307,
+            "duration" : 64
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "70c517f00cf4326b84915aabea380424"
+      } ],
+      "uid" : "c333649162ce443ceb908590544676ac"
+    }, {
+      "name" : "Корректность занесения данных в таблицу order_entity",
+      "children" : [ {
+        "name" : "Оплата в кредит, в в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)",
+        "uid" : "700ee2bfece67072",
+        "parentUid" : "925bad67c4e4e5e1ade174ae11ecfe44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648632150,
+          "stop" : 1667648632238,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "925bad67c4e4e5e1ade174ae11ecfe44"
+    } ],
+    "uid" : "2e39434009a74730d5de86f180fcabc9"
+  }, {
+    "name" : "Валидация полей",
+    "children" : [ {
+      "name" : "Поле месяца",
+      "children" : [ {
+        "name" : "Ниже нижней  границы срока действия",
+        "children" : [ {
+          "name" : "Оплата картой, дата действия меньше текущей границе, заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+          "uid" : "a16414bd83270f77",
+          "parentUid" : "3a9122e0de5b29e97aab29b22801861f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648576903,
+            "stop" : 1667648577747,
+            "duration" : 844
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3a9122e0de5b29e97aab29b22801861f"
+      }, {
+        "name" : "Верхняя граница срока действия",
+        "children" : [ {
+          "name" : "Оплата картой, дата действия в верхней границе (текущая дата + 5 лет), отображается сообщение об одобрении банком",
+          "uid" : "4a309d2ec4930a9b",
+          "parentUid" : "dc8720821d2c5543344d69059333d404",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648597973,
+            "stop" : 1667648604352,
+            "duration" : 6379
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dc8720821d2c5543344d69059333d404"
+      }, {
+        "name" : "Нижняя  срока действия",
+        "children" : [ {
+          "name" : "Оплата картой, дата действия карты равна текущей, отображается сообщение об одобрении банком",
+          "uid" : "b074aef032f58a26",
+          "parentUid" : "49c919f4858981696590c6b6c7b2ea30",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648604362,
+            "stop" : 1667648607572,
+            "duration" : 3210
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "49c919f4858981696590c6b6c7b2ea30"
+      }, {
+        "name" : "Поле месяца со знанчением '00' ",
+        "children" : [ {
+          "name" : "Оплата картой с нулевым месяцем, ошибка валидации поля месяца. 'Неверно указан срок действия карты'",
+          "uid" : "86f6fd0b3c910c03",
+          "parentUid" : "a3fb5ecbe9f4672c92e7860e6ef9acea",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648607576,
+            "stop" : 1667648612910,
+            "duration" : 5334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a3fb5ecbe9f4672c92e7860e6ef9acea"
+      }, {
+        "name" : "Пустое поле",
+        "children" : [ {
+          "name" : "Оплата картой с пустым полем месяца, ошибка валидации поля, Поле обязательно для заполнения",
+          "uid" : "7583c121b6f63312",
+          "parentUid" : "646fdc3d76d177cc6aca438d4283803b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648624099,
+            "stop" : 1667648629299,
+            "duration" : 5200
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "646fdc3d76d177cc6aca438d4283803b"
+      } ],
+      "uid" : "d67b28e01576452e8f837597d10c620d"
+    }, {
+      "name" : "Поле CVC",
+      "children" : [ {
+        "name" : "Пустое поле",
+        "children" : [ {
+          "name" : "Оплата картой с пустым полем CVC, ошибка валидации поля, Поле обязательно для заполнения",
+          "uid" : "eaa63199a7f1e92c",
+          "parentUid" : "1c27b3d36322c9cd72f77b36df5227df",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648577752,
+            "stop" : 1667648582896,
+            "duration" : 5144
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1c27b3d36322c9cd72f77b36df5227df"
+      } ],
+      "uid" : "a3350fd272d5dee0b81c339d647929a1"
+    }, {
+      "name" : "Поле года",
+      "children" : [ {
+        "name" : "Выще верхней  границы срока действия",
+        "children" : [ {
+          "name" : "Оплата картой, дата действия выше верхней границе (5 лет + 1 месяц), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+          "uid" : "cf7b458fea3f6876",
+          "parentUid" : "6c9f48a8dc0d5741adee55e115303f76",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648582905,
+            "stop" : 1667648588223,
+            "duration" : 5318
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Оплата картой, дата действия выше верхней границе (5 лет + 2 месяца), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+          "uid" : "acb1f9583e7586dc",
+          "parentUid" : "6c9f48a8dc0d5741adee55e115303f76",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648588236,
+            "stop" : 1667648590456,
+            "duration" : 2220
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6c9f48a8dc0d5741adee55e115303f76"
+      }, {
+        "name" : "Верхняя граница срока действия",
+        "children" : [ {
+          "name" : "Оплата картой, дата действия в верхней границе (текущая дата + 5 лет), отображается сообщение об одобрении банком",
+          "uid" : "4a309d2ec4930a9b",
+          "parentUid" : "1daa9a1a73ce64af214d24ea64294a39",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648597973,
+            "stop" : 1667648604352,
+            "duration" : 6379
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1daa9a1a73ce64af214d24ea64294a39"
+      }, {
+        "name" : "Нижняя  срока действия",
+        "children" : [ {
+          "name" : "Оплата картой, дата действия карты равна текущей, отображается сообщение об одобрении банком",
+          "uid" : "b074aef032f58a26",
+          "parentUid" : "f1b8b19aa8d018c5423196cb31de425c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648604362,
+            "stop" : 1667648607572,
+            "duration" : 3210
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1b8b19aa8d018c5423196cb31de425c"
+      }, {
+        "name" : "Пустое поле",
+        "children" : [ {
+          "name" : "Оплата картой с пустым полем года, ошибка валидации поля, Поле обязательно для заполнения",
+          "uid" : "9ef1b8e6e4bca5eb",
+          "parentUid" : "b3a1bcf1f25d6a4b99d5cc0aacccac7c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648613765,
+            "stop" : 1667648619089,
+            "duration" : 5324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b3a1bcf1f25d6a4b99d5cc0aacccac7c"
+      } ],
+      "uid" : "63a2c7ed34b3c884e7089223eed4c555"
+    }, {
+      "name" : "Поле имени",
+      "children" : [ {
+        "name" : "Имя киррилицей",
+        "children" : [ {
+          "name" : "Оплата с использованием имени кириллицей, ошибка валидация поля 'Неверный формат'",
+          "uid" : "83957d41dd97c577",
+          "parentUid" : "8c781b4fd09ee9c9fd50064c45065245",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648590463,
+            "stop" : 1667648597966,
+            "duration" : 7503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8c781b4fd09ee9c9fd50064c45065245"
+      }, {
+        "name" : "Пустое поле",
+        "children" : [ {
+          "name" : "Оплата в кредит с пустым полем имени, ошибка валидации поля, Поле обязательно для заполнения",
+          "uid" : "98513f1ab0298948",
+          "parentUid" : "894f6d2a6224e9f4a2417e1891510fdb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1667648612916,
+            "stop" : 1667648613758,
+            "duration" : 842
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "894f6d2a6224e9f4a2417e1891510fdb"
+      } ],
+      "uid" : "6914e6df17aba8ae55f8c5884f54440f"
+    }, {
+      "name" : "Поле номера карты",
+      "children" : [ {
+        "name" : "Пустое поле",
+        "children" : [ {
+          "name" : "Оплата в кредит с пустым полем номера карты, ошибка валидации поля, Поле обязательно для заполнения",
+          "uid" : "32b28a6df0b7a17",
+          "parentUid" : "0c330cb193a365f71657730e18a37354",
+          "status" : "failed",
+          "time" : {
+            "start" : 1667648619093,
+            "stop" : 1667648624093,
+            "duration" : 5000
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0c330cb193a365f71657730e18a37354"
+      } ],
+      "uid" : "9e82c52992fff3c052c53e2c9766808f"
+    } ],
+    "uid" : "aa8006eb9af94fe8716db5b57718041c"
+  } ]
+}

@@ -1,0 +1,324 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should be not visible {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_hovered notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: visible\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648524576.0.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648524576.0.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Покупка картой отсутствующей в системе. Отображается сообщение об отказе банком",
+        "uid" : "732c3b5477a7643c",
+        "parentUid" : "3ef0493e2cb7b616436e6ad1236cc6ba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648508929,
+          "stop" : 1667648524916,
+          "duration" : 15987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ef0493e2cb7b616436e6ad1236cc6ba"
+    }, {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648541389.1.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648541389.1.html\r\nTimeout: 11 s.",
+      "children" : [ {
+        "name" : "Покупка запрещенной картой. Отображается сообщение об отказе банком",
+        "uid" : "e66efea0e6347981",
+        "parentUid" : "0ffcd6dfba902e89deedae6659b92fae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648529473,
+          "stop" : 1667648541763,
+          "duration" : 12290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ffcd6dfba902e89deedae6659b92fae"
+    }, {
+      "name" : "expected: <Марракеш> but was: <Марракэш>",
+      "children" : [ {
+        "name" : "Корректность написания названия города",
+        "uid" : "aba3c5dfe9965c9f",
+        "parentUid" : "572c3a7a8e11c72edb67a2144a50e6fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648542625,
+          "stop" : 1667648542817,
+          "duration" : 192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "572c3a7a8e11c72edb67a2144a50e6fe"
+    }, {
+      "name" : "Element should have match attribute class~/.*button_view_extra.*/ {By.xpath: //*[text()='Купить']/../..}\r\nElement: '<button class=\"button button_size_m button_hovered button_theme_alfa-on-white\" role=\"button\" type=\"button\">Купить</button>'\r\nActual value: class~/button button_size_m button_hovered button_theme_alfa-on-white/\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648547253.2.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648547253.2.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "shouldHaveRedColorInPaymentIfSelected()",
+        "uid" : "1abefbfb10e24fab",
+        "parentUid" : "2cc10ba26f20e5554217b30934fd079c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648542823,
+          "stop" : 1667648547649,
+          "duration" : 4826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2cc10ba26f20e5554217b30934fd079c"
+    }, {
+      "name" : "expected: <AQA: Заявка на карту> but was: <Путешествие дня>",
+      "children" : [ {
+        "name" : "Заголовок страницы соответствуют содержанию",
+        "uid" : "4d2c040b29716fd9",
+        "parentUid" : "ddae0d5d8af4d5d10c4a7ebc351398bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648547655,
+          "stop" : 1667648547813,
+          "duration" : 158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddae0d5d8af4d5d10c4a7ebc351398bf"
+    }, {
+      "name" : "Element should be not visible {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_hovered notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: visible\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648557831.3.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648557831.3.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата в кредит картой отсутствующей в системе. Отображается сообщение об отказе банком",
+        "uid" : "fe4dc8d583289dc",
+        "parentUid" : "a0b65979b984dcd378fab9203be4ed31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648548142,
+          "stop" : 1667648558152,
+          "duration" : 10010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0b65979b984dcd378fab9203be4ed31"
+    }, {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_ok}\r\nElement: '<div class=\"notification notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648576511.4.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648576511.4.html\r\nTimeout: 11 s.",
+      "children" : [ {
+        "name" : "Оплата в кредит запрещенной картой, отображается сообщение об отказе банком",
+        "uid" : "cf784b5b7abd982",
+        "parentUid" : "58c90d485513b0313e38f0019ea36373",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648564569,
+          "stop" : 1667648576865,
+          "duration" : 12296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58c90d485513b0313e38f0019ea36373"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='CVC/CVV']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648582581.5.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648582581.5.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата картой с пустым полем CVC, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "eaa63199a7f1e92c",
+        "parentUid" : "13a60eb9b48f46c4e5b3371eda106f3c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648577752,
+          "stop" : 1667648582896,
+          "duration" : 5144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "13a60eb9b48f46c4e5b3371eda106f3c"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648587819.6.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648587819.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата картой, дата действия выше верхней границе (5 лет + 1 месяц), заявка не отправляется, ошибка валидации поля 'Неверно указан срок действия карты'",
+        "uid" : "cf7b458fea3f6876",
+        "parentUid" : "08559e90faf16b13d21a1318d2cf5103",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648582905,
+          "stop" : 1667648588223,
+          "duration" : 5318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08559e90faf16b13d21a1318d2cf5103"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']//..//*[@class='input__sub']}\r\nExpected: text \"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648597628.7.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648597628.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата с использованием имени кириллицей, ошибка валидация поля 'Неверный формат'",
+        "uid" : "83957d41dd97c577",
+        "parentUid" : "858bba8184adc735b2eca1439dfe8d88",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648590463,
+          "stop" : 1667648597966,
+          "duration" : 7503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "858bba8184adc735b2eca1439dfe8d88"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648612546.8.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648612546.8.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата картой с нулевым месяцем, ошибка валидации поля месяца. 'Неверно указан срок действия карты'",
+        "uid" : "86f6fd0b3c910c03",
+        "parentUid" : "bc8de55f9ae7b401cfcc6cf27e773a9e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648607576,
+          "stop" : 1667648612910,
+          "duration" : 5334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc8de55f9ae7b401cfcc6cf27e773a9e"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648618739.9.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648618739.9.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата картой с пустым полем года, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "9ef1b8e6e4bca5eb",
+        "parentUid" : "c402e268d68485aeb2a8c226a65e600d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648613765,
+          "stop" : 1667648619089,
+          "duration" : 5324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c402e268d68485aeb2a8c226a65e600d"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Номер карты']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648623807.10.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648623807.10.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата в кредит с пустым полем номера карты, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "32b28a6df0b7a17",
+        "parentUid" : "f1ecbae7a23c9135b9c368c04fecf005",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648619093,
+          "stop" : 1667648624093,
+          "duration" : 5000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1ecbae7a23c9135b9c368c04fecf005"
+    }, {
+      "name" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648628983.11.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648628983.11.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "Оплата картой с пустым полем месяца, ошибка валидации поля, Поле обязательно для заполнения",
+        "uid" : "7583c121b6f63312",
+        "parentUid" : "327ee9f15418690543aadec91d06c8e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648624099,
+          "stop" : 1667648629299,
+          "duration" : 5200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "327ee9f15418690543aadec91d06c8e9"
+    }, {
+      "name" : "expected: <d5410471-2495-4ea0-9121-7bfa4e6866b5> but was: <null>",
+      "children" : [ {
+        "name" : "Оплата в кредит, в в таблицу order_entity  в поле credit_id заносится значение из bank_id таблицы credit_request_entity)",
+        "uid" : "700ee2bfece67072",
+        "parentUid" : "0cfccb46e44a200b262c43a6caf5b2bb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1667648632150,
+          "stop" : 1667648632238,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0cfccb46e44a200b262c43a6caf5b2bb"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,587 @@
+{
+  "27fcba99849aa4c943c15579d4a789e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eaa63199a7f1e92c",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='CVC/CVV']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648582581.5.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648582581.5.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1667648577752,
+        "stop" : 1667648582896,
+        "duration" : 5144
+      }
+    } ]
+  },
+  "702e2251f8947fdb22d94c0a213897a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a16414bd83270f77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648576903,
+        "stop" : 1667648577747,
+        "duration" : 844
+      }
+    } ]
+  },
+  "c622c672b73564aa5d2a8ed8c1dfdebd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d2c040b29716fd9",
+      "status" : "failed",
+      "statusDetails" : "expected: <AQA: Заявка на карту> but was: <Путешествие дня>",
+      "time" : {
+        "start" : 1667648547655,
+        "stop" : 1667648547813,
+        "duration" : 158
+      }
+    } ]
+  },
+  "63f12ed715af7b97c25cc5a83e69c75e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e804d41e533d982b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648558160,
+        "stop" : 1667648564564,
+        "duration" : 6404
+      }
+    } ]
+  },
+  "710f7099e0119a59c322c98aad356993" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98513f1ab0298948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648612916,
+        "stop" : 1667648613758,
+        "duration" : 842
+      }
+    } ]
+  },
+  "1384a1886b4a615d062b8f23ae7fb835" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acb1f9583e7586dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648588236,
+        "stop" : 1667648590456,
+        "duration" : 2220
+      }
+    } ]
+  },
+  "9bdfad58e26558d30333f9fb569cfe6f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a0617e683673c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648632364,
+        "stop" : 1667648632427,
+        "duration" : 63
+      }
+    } ]
+  },
+  "a8ab1eded5dd627df307376c5d55b670" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b074aef032f58a26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648604362,
+        "stop" : 1667648607572,
+        "duration" : 3210
+      }
+    } ]
+  },
+  "928d80088a50d6516066ff1e31074e38" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e66efea0e6347981",
+      "status" : "failed",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_error}\r\nElement: '<div class=\"notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648541389.1.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648541389.1.html\r\nTimeout: 11 s.",
+      "time" : {
+        "start" : 1667648529473,
+        "stop" : 1667648541763,
+        "duration" : 12290
+      }
+    } ]
+  },
+  "679c6a4c9ca3531f2d73048044755d89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1a4ea3fdee4500e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648632060,
+        "stop" : 1667648632147,
+        "duration" : 87
+      }
+    } ]
+  },
+  "cb876e55f0eacf2fd7f7c389d10412ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a729af2bfa59b0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648525029,
+        "stop" : 1667648529464,
+        "duration" : 4435
+      }
+    } ]
+  },
+  "9dd1ba64fd45c1bdc1b929d66dac88ac" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83957d41dd97c577",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']//..//*[@class='input__sub']}\r\nExpected: text \"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648597628.7.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648597628.7.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']//..//*[@class='input__sub']\"}",
+      "time" : {
+        "start" : 1667648590463,
+        "stop" : 1667648597966,
+        "duration" : 7503
+      }
+    } ]
+  },
+  "45032c37cc4f6111f06ee905e94ce544" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86f6fd0b3c910c03",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648612546.8.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648612546.8.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Месяц']//..//*[@class='input__sub']\"}",
+      "time" : {
+        "start" : 1667648607576,
+        "stop" : 1667648612910,
+        "duration" : 5334
+      }
+    } ]
+  },
+  "880940fc5fa16e8e549122b74050dc12" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "700ee2bfece67072",
+      "status" : "failed",
+      "statusDetails" : "expected: <d5410471-2495-4ea0-9121-7bfa4e6866b5> but was: <null>",
+      "time" : {
+        "start" : 1667648632150,
+        "stop" : 1667648632238,
+        "duration" : 88
+      }
+    } ]
+  },
+  "d008155d7ad5a35a2b82d1e4ef970713" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aba3c5dfe9965c9f",
+      "status" : "failed",
+      "statusDetails" : "expected: <Марракеш> but was: <Марракэш>",
+      "time" : {
+        "start" : 1667648542625,
+        "stop" : 1667648542817,
+        "duration" : 192
+      }
+    } ]
+  },
+  "6b41a25ceae78a7cc673a0785d0042f6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "732c3b5477a7643c",
+      "status" : "failed",
+      "statusDetails" : "Element should be not visible {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_hovered notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: visible\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648524576.0.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648524576.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1667648508929,
+        "stop" : 1667648524916,
+        "duration" : 15987
+      }
+    } ]
+  },
+  "c55083782e64a0e1f7ad15ef1b3fe5c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57762f9a8b586d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648629348,
+        "stop" : 1667648631971,
+        "duration" : 2623
+      }
+    } ]
+  },
+  "879ecf8f166eac2d9a588268f4a034ec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe4dc8d583289dc",
+      "status" : "failed",
+      "statusDetails" : "Element should be not visible {.notification_status_ok}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_hovered notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: visible\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648557831.3.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648557831.3.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1667648548142,
+        "stop" : 1667648558152,
+        "duration" : 10010
+      }
+    } ]
+  },
+  "58dc63fdb414870d2520bdf543f7645d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a309d2ec4930a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648597973,
+        "stop" : 1667648604352,
+        "duration" : 6379
+      }
+    } ]
+  },
+  "b25657cd444679d6c66e22c241fa73e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb7410afa2f2b8b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648631977,
+        "stop" : 1667648632055,
+        "duration" : 78
+      }
+    } ]
+  },
+  "f976852e910e915c6d6b7d669d015c49" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1df8efb6ba224938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648632243,
+        "stop" : 1667648632307,
+        "duration" : 64
+      }
+    } ]
+  },
+  "7f4b8f8285adfca9354b96e9eb6df3a1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf7b458fea3f6876",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nExpected: text \"Неверно указан срок действия карты\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648587819.6.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648587819.6.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Год']//..//*[@class='input__sub']\"}",
+      "time" : {
+        "start" : 1667648582905,
+        "stop" : 1667648588223,
+        "duration" : 5318
+      }
+    } ]
+  },
+  "90b7b664f62aa4b980045f6c4553a3ab" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7583c121b6f63312",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Месяц']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648628983.11.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648628983.11.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1667648624099,
+        "stop" : 1667648629299,
+        "duration" : 5200
+      }
+    } ]
+  },
+  "c38ef1e8047ad7cb4866737303af9472" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ef1b8e6e4bca5eb",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Год']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648618739.9.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648618739.9.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1667648613765,
+        "stop" : 1667648619089,
+        "duration" : 5324
+      }
+    } ]
+  },
+  "71e8d60cb5dfc1d7794f380bcaa1088b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "999483927d1482a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648547820,
+        "stop" : 1667648548105,
+        "duration" : 285
+      }
+    } ]
+  },
+  "7050e11a41d5b9dafbe147022d5031ed" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1abefbfb10e24fab",
+      "status" : "failed",
+      "statusDetails" : "Element should have match attribute class~/.*button_view_extra.*/ {By.xpath: //*[text()='Купить']/../..}\r\nElement: '<button class=\"button button_size_m button_hovered button_theme_alfa-on-white\" role=\"button\" type=\"button\">Купить</button>'\r\nActual value: class~/button button_size_m button_hovered button_theme_alfa-on-white/\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648547253.2.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648547253.2.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1667648542823,
+        "stop" : 1667648547649,
+        "duration" : 4826
+      }
+    } ]
+  },
+  "9e3e75aa6ffd5aa5564f654fb73b64cd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32b28a6df0b7a17",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Поле обязательно для заполнения\" {By.xpath: //*[text()='Номер карты']//..//*[@class='input__sub']}\r\nElement: '<span class=\"input__sub\">Неверный формат</span>'\r\nActual value: text=\"Неверный формат\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648623807.10.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648623807.10.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1667648619093,
+        "stop" : 1667648624093,
+        "duration" : 5000
+      }
+    } ]
+  },
+  "88161171870d67970c0a01e8c3d88d6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c5f87c2ba65bce07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648632429,
+        "stop" : 1667648632536,
+        "duration" : 107
+      }
+    } ]
+  },
+  "87f48e1d8aae9064cfb42e2515b5d090" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f93c4d192094eb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667648632310,
+        "stop" : 1667648632359,
+        "duration" : 49
+      }
+    } ]
+  },
+  "b893468809d835ea2a09ac9fd40f405b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf784b5b7abd982",
+      "status" : "failed",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification_status_ok}\r\nElement: '<div class=\"notification notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: text=\"\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648576511.4.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/DyplomaLast/build/reports/tests/1667648576511.4.html\r\nTimeout: 11 s.",
+      "time" : {
+        "start" : 1667648564569,
+        "stop" : 1667648576865,
+        "duration" : 12296
+      }
+    } ]
+  }
+}
